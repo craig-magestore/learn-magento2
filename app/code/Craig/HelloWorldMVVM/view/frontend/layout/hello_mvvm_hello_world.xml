@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/layout/etc/page_configuration.xsd">
+    <referenceBlock name="content">
+        <block template="content.phtml"
+               class="Craig\HelloWorldMVVM\Block\Main"
+               name="craig_helloworld_mvvm"/>
+    </referenceBlock>
+</page>

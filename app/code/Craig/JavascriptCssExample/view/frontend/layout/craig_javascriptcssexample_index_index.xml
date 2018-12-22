@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <!--<head>-->
+    <!--<css src="Craig_JavascriptCssExample::test.css"/>-->
+    <!--<link src="Craig_JavascriptCssExample::test.js"/>-->
+    <!--</head>-->
+
+    <referenceContainer name="content">
+        <block template="content.phtml" class="Craig\JavascriptCssExample\Block\Main"
+               name="craig_javascriptcssexample_block_main"/>
+    </referenceContainer>
+
+    <referenceBlock name="head.additional">
+        <block template="head.phtml"
+               class="Craig\JavascriptCssExample\Block\Head"
+               name="craig_javascriptcssexample_block_head"/>
+    </referenceBlock>
+</page>
